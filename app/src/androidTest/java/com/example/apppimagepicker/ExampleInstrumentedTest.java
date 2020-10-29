@@ -1,4 +1,4 @@
-package com.example.apppimagepicker25082020;
+package com.example.apppimagepicker;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

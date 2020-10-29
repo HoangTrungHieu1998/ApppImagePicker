@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">ApppImagePicker25082020</string>
+    <string name="app_name">ApppImagePicker</string>
+    <string-array name="array_name_image">
+        <item>bo</item>
+        <item>bocanhcung</item>
+        <item>bongua</item>
+        <item>cachep</item>
+        <item>cadia</item>
+        <item>chimcanhcut</item>
+        <item>cho</item>
+        <item>chodom</item>
+        <item>chuonchuon</item>
+        <item>ech</item>
+        <item>heo</item>
+        <item>khi</item>
+        <item>meoden</item>
+        <item>meolucky</item>
+        <item>meotrang</item>
+        <item>rua</item>
+        <item>soi</item>
+        <item>voi</item>
+    </string-array>
 </resources>

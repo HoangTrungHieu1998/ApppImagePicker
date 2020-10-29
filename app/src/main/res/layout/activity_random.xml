@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RandomActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#f20"
+        android:textSize="20sp"
+        tools:text="Time : 0s"
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/tvTime"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#f20"
+        android:textSize="20sp"
+        tools:text="Score : 0"
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/imgRandom"
+        android:scaleType="fitXY"
+        android:src="@drawable/bo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+    <TextView
+        android:background="#FFEB3B"
+        android:textColor="#f20"
+        android:textAllCaps="true"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="Chọn hình bên dưới"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/imgRandom"
+        android:id="@+id/textviewTieude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_below="@id/textviewTieude"
+        android:id="@+id/imgPick"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/nophoto"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+</RelativeLayout>

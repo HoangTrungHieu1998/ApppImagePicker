@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "ApppImagePicker25082020"
+rootProject.name = "ApppImagePicker"
